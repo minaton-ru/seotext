@@ -1,0 +1,126 @@
+@media screen and (max-width: 992px) {
+.asideNav { 
+	font-size: small; 
+	}
+}
+
+body { 
+	margin: 0; 
+	font-family: "Verdana"; 
+	background-color: #f6eed5; }
+
+a:hover {
+	color: #d58c55; 
+	text-decoration: underline; }
+
+header, header a {
+	font-size: small;
+	color: #fff;
+}
+
+.headerUpLine, .headerUpLine a {
+	background-color: #523116;
+	height: 30px;
+}
+
+.headerLogoLine {
+	background-color: #986646;
+}
+
+.headerLogoImg {
+	padding: 0;
+}
+
+.name { 
+	font-size: medium;  
+	margin-left: 0.5em; 
+	margin-top: 1em; 
+	margin-bottom: 0; }
+
+.title { 
+	margin-left: 0.5em; 
+	}
+
+.headerNav { 
+	background-color: #893719;
+	padding: 0; 
+	}
+.headerNav a:hover {
+	color: #d58c55; 
+	text-decoration: underline; }
+.headerNav a {
+	padding: 8px 8px; }
+
+.active a {
+	font-weight: bold;
+}
+
+aside { 
+	background-color: #E2E0C1; 
+	}
+aside a { 
+	color: #000000;
+	}
+.aside a:hover { 
+	color: #893719;
+	text-decoration: underline;
+	}
+
+.aside {
+	padding: 0;
+}
+
+a[class~="active"] {
+	background-color: #D1C596;
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: bold;
+	color: #99A592;
+	text-align: right;
+	font-size: x-large;
+	padding: 5px 0 0 0;
+	border-bottom: 2px solid #99A592;
+}
+
+.content {
+	padding: 0 0 0 15px;
+	text-align: justify;
+}
+
+.content a {
+	color: #893719;
+	text-decoration: underline;
+}
+
+.content a:hover {
+	color: #d58c55;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: large;
+}
+
+.footer {
+	background-color: #986646;
+	font-size: small;
+	padding: 0;
+}
+
+address {
+	text-align: center;
+	padding: 5px 0;
+	color: #fff;
+	border-bottom: 5px solid #D58C55;
+}
+
+address a, a:hover {
+	color: #fff;
+}
